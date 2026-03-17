@@ -6,24 +6,77 @@ Valid keys in each object include `"URL"`, `"DOI"` (see
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
-
+ - rules.dataset_metadata.dataset_description
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
 
 	[ERROR] TSV_VALUE_INCORRECT_TYPE A value in a column did not match the acceptable type for that column headers specified format.
 		session_id
-		/sub-roquefort/sub-roquefort_sessions.tsv - 'ses-roquefort_07'
-		/sub-despereaux/sub-despereaux_sessions.tsv - 'ses-despereaux_03'
-
-		2 more files with the same issue
+		/sub-roquefort/sub-roquefort_sessions.tsv - 'ses-roquefort_07' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-despereaux/sub-despereaux_sessions.tsv - 'ses-despereaux_03' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-jaq/sub-jaq_sessions.tsv - 'ses-jaq_06' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-montague/sub-montague_sessions.tsv - 'ses-montague_03' - rules.tabular_data.modality_agnostic.Sessions
 
 	Please visit https://neurostars.org/search?q=TSV_VALUE_INCORRECT_TYPE for existing conversations about this issue.
 
 	[ERROR] NOT_INCLUDED Files with such naming scheme are not part of BIDS specification. This error is most commonly caused by typos in file names that make them not BIDS compatible. Please consult the specification and make sure your files are named correctly. If this is not a file naming issue (for example when including files not yet covered by the BIDS specification) you should include a ".bidsignore" file in your dataset (see https://github.com/bids-standard/bids-validator#bidsignore for details). Please note that derived (processed) data should be placed in /derivatives folder and source data (such as DICOMS or behavioural logs in proprietary formats) should be placed in the /sourcedata folder.
 		/sub-roquefort/ses-roquefort_15/
 		/sub-roquefort/ses-roquefort_07/
-
-		55 more files with the same issue
+		/sub-roquefort/ses-roquefort_18/
+		/sub-roquefort/ses-roquefort_11/
+		/sub-roquefort/ses-roquefort_13/
+		/sub-roquefort/ses-roquefort_09/
+		/sub-roquefort/ses-roquefort_19/
+		/sub-roquefort/ses-roquefort_22/
+		/sub-roquefort/ses-roquefort_16/
+		/sub-roquefort/ses-roquefort_17/
+		/sub-roquefort/ses-roquefort_10/
+		/sub-roquefort/ses-roquefort_12/
+		/sub-roquefort/ses-roquefort_21/
+		/sub-roquefort/ses-roquefort_14/
+		/sub-roquefort/ses-roquefort_08/
+		/sub-roquefort/ses-roquefort_20/
+		/sub-despereaux/ses-despereaux_03/
+		/sub-despereaux/ses-despereaux_10/
+		/sub-despereaux/ses-despereaux_08/
+		/sub-despereaux/ses-despereaux_12/
+		/sub-despereaux/ses-despereaux_05/
+		/sub-despereaux/ses-despereaux_14/
+		/sub-despereaux/ses-despereaux_04/
+		/sub-despereaux/ses-despereaux_07/
+		/sub-despereaux/ses-despereaux_09/
+		/sub-despereaux/ses-despereaux_06/
+		/sub-despereaux/ses-despereaux_11/
+		/sub-despereaux/ses-despereaux_13/
+		/sub-jaq/ses-jaq_07/
+		/sub-jaq/ses-jaq_14/
+		/sub-jaq/ses-jaq_09/
+		/sub-jaq/ses-jaq_15/
+		/sub-jaq/ses-jaq_10/
+		/sub-jaq/ses-jaq_18/
+		/sub-jaq/ses-jaq_13/
+		/sub-jaq/ses-jaq_11/
+		/sub-jaq/ses-jaq_08/
+		/sub-jaq/ses-jaq_17/
+		/sub-jaq/ses-jaq_06/
+		/sub-jaq/ses-jaq_12/
+		/sub-jaq/ses-jaq_16/
+		/sub-montague/ses-montague_08/
+		/sub-montague/ses-montague_14/
+		/sub-montague/ses-montague_04/
+		/sub-montague/ses-montague_16/
+		/sub-montague/ses-montague_15/
+		/sub-montague/ses-montague_09/
+		/sub-montague/ses-montague_07/
+		/sub-montague/ses-montague_11/
+		/sub-montague/ses-montague_10/
+		/sub-montague/ses-montague_17/
+		/sub-montague/ses-montague_12/
+		/sub-montague/ses-montague_18/
+		/sub-montague/ses-montague_03/
+		/sub-montague/ses-montague_13/
+		/sub-montague/ses-montague_05/
+		/sub-montague/ses-montague_06/
 
 	Please visit https://neurostars.org/search?q=NOT_INCLUDED for existing conversations about this issue.
 
